@@ -7,7 +7,7 @@ class CustomSearchWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 50,
+      height: 45,
       width: double.infinity,
       padding: EdgeInsets.symmetric(
         horizontal: 10,

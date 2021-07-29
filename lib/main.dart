@@ -1,8 +1,13 @@
 import 'package:borneotaste/screens/home_screens/HomePage.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(MyApp());
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarColor: Colors.white,
+    systemNavigationBarColor: Colors.white,
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -10,7 +15,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Borneo Taste',
       debugShowCheckedModeBanner: false,
       home: HomePage(),
     );

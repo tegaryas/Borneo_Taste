@@ -12,39 +12,27 @@ class Header extends StatelessWidget {
         SizedBox(
           height: 30,
         ),
-        RichText(
-          text: TextSpan(
-            text: 'Masakan',
-            style: GoogleFonts.montserrat(
-              color: Colors.black,
-              fontSize: 26,
-              fontWeight: FontWeight.w600,
-            ),
-            children: [
-              TextSpan(
-                text: 'Borneo',
-                style: GoogleFonts.montserrat(
-                  color: Colors.green,
-                  fontSize: 26,
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
-            ],
+        Text(
+          'Halo, Tegar',
+          style: GoogleFonts.montserrat(
+            color: Colors.green,
+            fontSize: 24,
+            fontWeight: FontWeight.w600,
           ),
         ),
         SizedBox(
           height: 5,
         ),
         Text(
-          'Temukan resep dan ciptakan masakan\nkhas Kalimantan',
+          'Resep Apa yang Ingin Anda Buat?',
           style: GoogleFonts.montserrat(
-            color: Colors.black,
-            fontSize: 18,
-            fontWeight: FontWeight.w300,
+            color: Colors.grey,
+            fontSize: 16,
+            fontWeight: FontWeight.w600,
           ),
         ),
         SizedBox(
-          height: 16,
+          height: 20,
         ),
       ],
     );

@@ -58,7 +58,9 @@ class _FavoriteCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(right: 12),
+      padding: const EdgeInsets.only(
+        right: 20,
+      ),
       child: GestureDetector(
         onTap: press,
         child: Stack(

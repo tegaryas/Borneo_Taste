@@ -120,7 +120,7 @@ class Kategori extends StatelessWidget {
                   onTap: () => Navigator.push(context,
                       MaterialPageRoute(builder: (context) => LainPage())),
                   child: Padding(
-                    padding: const EdgeInsets.only(right: 10),
+                    padding: const EdgeInsets.only(right: 20),
                     child: Stack(
                       children: [
                         Container(
